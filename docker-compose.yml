@@ -2,7 +2,7 @@ version: "2"
 
 services: 
   api:
-    image: karuppiah7890/online-av-converter
+    image: sidigridghost/av-converter
     command: npm start
     environment:
       - DEBUG=server:*,server-redis:*,worker:*,converter-ffmpeg:*,converter-redis:*,examineFile:*
@@ -27,7 +27,7 @@ services:
       - RABBITMQ_HIPE_COMPILE=1
 
   nginx:
-    image: karuppiah7890/av-converter-nginx
+    image: sidigridghost/av-converter-nginx
     ports: 
       - 80:80
     links:

@@ -1,4 +1,4 @@
-FROM karuppiah7890/ffmpeg-and-node:latest
+FROM sidigridghost/ffmpeg-and-node:latest
 
 WORKDIR /code/
 
