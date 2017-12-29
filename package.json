@@ -1,0 +1,29 @@
+{
+  "name": "online-av-converter",
+  "version": "0.0.1",
+  "description": "Open Source Online Audio Video Converter which converts audio and videos from one format to another ",
+  "main": "server.js",
+  "repository": "https://github.com/karuppiah7890/online-av-converter",
+  "author": "Karuppiah N <karuppiah7890@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "npm run standard",
+    "standard": "standard --fix"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
+    "express": "^4.15.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "jquery": "^3.2.1",
+    "mime": "^1.3.6",
+    "mmmagic": "^0.4.5",
+    "multer": "^1.3.0",
+    "nodemon": "^1.11.0",
+    "redis": "^2.8.0",
+    "timediff": "^1.1.1"
+  }
+}
